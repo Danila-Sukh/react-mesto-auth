@@ -20,7 +20,7 @@ class AuthApi {
     };
 
     authorization({ email, password }) {
-        return fetch(this.url + '/sign-in', {
+        return fetch(this.url + '/signin', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
